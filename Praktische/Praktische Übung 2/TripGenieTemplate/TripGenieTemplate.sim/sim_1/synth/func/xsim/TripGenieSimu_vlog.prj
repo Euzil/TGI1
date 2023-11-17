@@ -1,0 +1,7 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"TripGenieSimu_func_synth.v" \
+"../../../../../TripGenie.srcs/sim_1/new/TripGenieSimu.v" \
+
+# Do not sort compile order
+nosort

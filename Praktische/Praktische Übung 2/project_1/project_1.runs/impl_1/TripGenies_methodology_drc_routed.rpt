@@ -1,0 +1,34 @@
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.3 (win64) Build 3173277 Wed Apr  7 05:07:49 MDT 2021
+| Date         : Wed Jun  2 00:21:08 2021
+| Host         : DESKTOP-7REPPQD running 64-bit major release  (build 9200)
+| Command      : report_methodology -file TripGenies_methodology_drc_routed.rpt -pb TripGenies_methodology_drc_routed.pb -rpx TripGenies_methodology_drc_routed.rpx
+| Design       : TripGenies
+| Device       : xcvc1802-viva1596-1LHP-i-L
+| Speed File   : -1LHP
+| Design State : Fully Routed
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Report Methodology
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+             Max violations: <unlimited>
+             Violations found: 0
++------+----------+-------------+------------+
+| Rule | Severity | Description | Violations |
++------+----------+-------------+------------+
++------+----------+-------------+------------+
+
+2. REPORT DETAILS
+-----------------
+
