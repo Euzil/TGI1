@@ -1,0 +1,26 @@
+#-----------------------------------------------------------
+# Vivado v2020.3 (64-bit)
+# SW Build 3173277 on Wed Apr  7 05:07:49 MDT 2021
+# IP Build 3174024 on Wed Apr  7 23:42:35 MDT 2021
+# Start of session at: Tue Jun  1 23:37:11 2021
+# Process ID: 1700
+# Current directory: C:/Users/Admin/OneDrive/桌面/TripGenieTemplate
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent432 C:\Users\Admin\OneDrive\桌面\TripGenieTemplate\TripGenieTemplate.xpr
+# Log file: C:/Users/Admin/OneDrive/桌面/TripGenieTemplate/vivado.log
+# Journal file: C:/Users/Admin/OneDrive/桌面/TripGenieTemplate\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project -part xcvc1802-viva1596-1LHP-i-L C:/Users/Admin/OneDrive/桌面/TripGenieTemplate/TripGenieTemplate.xpr
+update_compile_order -fileset sources_1
+launch_runs synth_1 -jobs 6
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 6
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 6
+wait_on_run synth_1
+launch_runs impl_1 -jobs 6
+wait_on_run impl_1
+open_run impl_1
+save_project_as project_1 C:/Users/Admin/OneDrive/project_1 -force

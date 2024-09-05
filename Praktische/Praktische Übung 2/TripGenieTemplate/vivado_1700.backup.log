@@ -1,0 +1,68 @@
+#-----------------------------------------------------------
+# Vivado v2020.3 (64-bit)
+# SW Build 3173277 on Wed Apr  7 05:07:49 MDT 2021
+# IP Build 3174024 on Wed Apr  7 23:42:35 MDT 2021
+# Start of session at: Tue Jun  1 23:37:11 2021
+# Process ID: 1700
+# Current directory: C:/Users/Admin/OneDrive/桌面/TripGenieTemplate
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent432 C:\Users\Admin\OneDrive\桌面\TripGenieTemplate\TripGenieTemplate.xpr
+# Log file: C:/Users/Admin/OneDrive/桌面/TripGenieTemplate/vivado.log
+# Journal file: C:/Users/Admin/OneDrive/桌面/TripGenieTemplate\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project -part xcvc1802-viva1596-1LHP-i-L C:/Users/Admin/OneDrive/桌面/TripGenieTemplate/TripGenieTemplate.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/klink/Desktop/TGI 2/TripGenieTemplate' since last save.
+INFO: [Project 1-563] Overriding project part, 'xc7a35tcpg236-1', with new part: 'xcvc1802-viva1596-1LHP-i-L'.
+Scanning sources...
+Finished scanning sources
+INFO: [Project 1-573] Overriding 'synth_1' run's part, 'xc7a35tcpg236-1', with new part: 'xcvc1802-viva1596-1LHP-i-L'.
+INFO: [Project 1-573] Overriding 'impl_1' run's part, 'xc7a35tcpg236-1', with new part: 'xcvc1802-viva1596-1LHP-i-L'.
+CRITICAL WARNING: [Board 49-67] The board_part definition was not found for digilentinc.com:basys3:part0:1.1. This can happen sometimes when you use custom board part. You can resolve this issue by setting 'board.repoPaths' parameter, pointing to the location of custom board files. Valid board_part values can be retrieved with the 'get_board_parts' Tcl command.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.3/data/ip'.
+update_compile_order -fileset sources_1
+launch_runs synth_1 -jobs 6
+[Wed Jun  2 00:01:28 2021] Launched synth_1...
+Run output will be captured here: C:/Users/Admin/OneDrive/桌面/TripGenieTemplate/TripGenieTemplate.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 6
+[Wed Jun  2 00:15:09 2021] Launched synth_1...
+Run output will be captured here: C:/Users/Admin/OneDrive/桌面/TripGenieTemplate/TripGenieTemplate.runs/synth_1/runme.log
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/Admin/OneDrive/桌面/TripGenieTemplate/TripGenieTemplate.runs/synth_1
+
+launch_runs synth_1 -jobs 6
+[Wed Jun  2 00:15:49 2021] Launched synth_1...
+Run output will be captured here: C:/Users/Admin/OneDrive/桌面/TripGenieTemplate/TripGenieTemplate.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 6
+[Wed Jun  2 00:17:19 2021] Launched impl_1...
+Run output will be captured here: C:/Users/Admin/OneDrive/桌面/TripGenieTemplate/TripGenieTemplate.runs/impl_1/runme.log
+open_run impl_1
+INFO: [Device 21-403] Loading part xcvc1802-viva1596-1LHP-i-L
+WARNING: [Device 21-713] Unknown Tile Type, SLL, given for group, SLL
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1759.266 ; gain = 0.000
+INFO: [Project 1-479] Netlist was created with Vivado 2020.3
+INFO: [Constraints 18-5718] GCLK Deskew mode is set to Off via param.
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.274 . Memory (MB): peak = 2775.594 ; gain = 0.000
+Restored from archive | CPU: 3.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 2775.594 ; gain = 347.070
+INFO: [Device 21-2210] 2 Level speed models with no predriver populated from models with predrivers.  Count = 65
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3052.078 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:01:11 ; elapsed = 00:00:59 . Memory (MB): peak = 4355.137 ; gain = 3253.656
+WARNING: [Timing 38-313] There are no user specified timing constraints. Timing constraints are needed for proper timing analysis.
+save_project_as project_1 C:/Users/Admin/OneDrive/project_1 -force
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Jun  2 00:34:18 2021...

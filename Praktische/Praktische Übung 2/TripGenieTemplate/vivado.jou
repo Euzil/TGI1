@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2020.3 (64-bit)
+# SW Build 3173277 on Wed Apr  7 05:07:49 MDT 2021
+# IP Build 3174024 on Wed Apr  7 23:42:35 MDT 2021
+# Start of session at: Thu Jun 10 11:19:47 2021
+# Process ID: 12764
+# Current directory: E:/学习/Uni/TGI/2/TripGenieTemplate
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10732 E:\学习\Uni\TGI\2\TripGenieTemplate\TripGenieTemplate.xpr
+# Log file: E:/学习/Uni/TGI/2/TripGenieTemplate/vivado.log
+# Journal file: E:/学习/Uni/TGI/2/TripGenieTemplate\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/学习/Uni/TGI/2/TripGenieTemplate/TripGenieTemplate.xpr
+update_compile_order -fileset sources_1
+open_run synth_1 -name synth_1

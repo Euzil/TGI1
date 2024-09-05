@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/学习/Uni/TGI1/2/TripGenieTemplate/TripGenieTemplate.srcs/sim_1/new/TripGenieSimu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TripGenieSimu
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/学习/Uni/TGI1/2/TripGenieTemplate/TripGenieTemplate.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/学习/Uni/TGI1/2/TripGenieTemplate/TripGenieTemplate.srcs/sources_1/new/TripGenie.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'TripGenies'

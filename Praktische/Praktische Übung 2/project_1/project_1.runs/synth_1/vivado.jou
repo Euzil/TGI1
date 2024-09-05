@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.3 (64-bit)
+# SW Build 3173277 on Wed Apr  7 05:07:49 MDT 2021
+# IP Build 3174024 on Wed Apr  7 23:42:35 MDT 2021
+# Start of session at: Wed Jun  2 00:15:56 2021
+# Process ID: 11584
+# Current directory: C:/Users/Admin/OneDrive/桌面/TripGenieTemplate/TripGenieTemplate.runs/synth_1
+# Command line: vivado.exe -log TripGenies.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source TripGenies.tcl
+# Log file: C:/Users/Admin/OneDrive/桌面/TripGenieTemplate/TripGenieTemplate.runs/synth_1/TripGenies.vds
+# Journal file: C:/Users/Admin/OneDrive/桌面/TripGenieTemplate/TripGenieTemplate.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source TripGenies.tcl -notrace
